@@ -5,3 +5,17 @@ body{
 .my-logo{
   width: 120px;
 }
+
+header a{
+  color: #031B4E;
+  font-size: initial;
+}
+
+header .my-signup{
+  background-color: #fff;
+  border-color: #0167FF;
+  border-radius: 4px;
+  margin-top: 15%;
+  color: #0167FF;
+  padding: 3px 10px;
+}
