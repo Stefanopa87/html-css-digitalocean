@@ -1,12 +1,25 @@
 body{
   font-family: 'Roboto', sans-serif;
+  padding-top: 50px;
 }
 
 .my-logo{
   width: 120px;
 }
 
-header a{
+header .navbar-default{
+  background-image: none;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.navbar {
+
+  /* margin-bottom: 20px; */
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a{
   color: #031B4E;
   font-size: initial;
 }
