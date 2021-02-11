@@ -1,7 +1,30 @@
+/* debug */
+/* [class*="col-"]{
+  min-height: 100px;
+  background: red;
+  border: solid 1px #000;
+} */
+
+/* general */
+
 body{
   font-family: 'Roboto', sans-serif;
   padding-top: 50px;
 }
+
+.my-white{
+  color: #fff;
+}
+
+.my-navy{
+  color: #031B4E;
+}
+
+.my-blue{
+  color: #0167FF;
+}
+
+/* header */
 
 .my-logo{
   width: 120px;
@@ -14,8 +37,6 @@ header .navbar-default{
 }
 
 .navbar {
-
-  /* margin-bottom: 20px; */
   border: none;
 }
 
@@ -31,4 +52,38 @@ header .my-signup{
   margin-top: 15%;
   color: #0167FF;
   padding: 3px 10px;
+}
+
+/* jumbo */
+
+.jumbotron{
+  background-image: url("../img/jumbo.svg");
+}
+
+.jumbotron h1{
+  color: #fff;
+}
+
+.my-box{
+  min-height: 400px;
+  background-color: #fff;
+  border-radius: 5%;
+  padding: 20px 30px;
+}
+
+.my-text-box{
+  font-size: 4rem;
+  text-align: center;
+}
+
+.my-button-area button{
+  display: block;
+  width: 100%;
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+
+.my-button-area img{
+  width: 5%;
+  float: left;
 }
