@@ -202,15 +202,8 @@ ul.my-grey {
   margin: 3% 0;
 }
 
-._designed img::before{
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  background-color: green;
-  left: 0;
-  top: 0;
-  z-index: 900;
-  content: "provaaaaaa";
-
-
+._designed button{
+  font-size: xx-large;
+  border: none;
+  background-color: inherit;
 }
