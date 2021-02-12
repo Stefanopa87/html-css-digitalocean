@@ -26,8 +26,9 @@ body{
 
 /* header */
 
-.my-logo{
+header .my-logo{
   width: 120px;
+  margin-right: 50px;
 }
 
 header .navbar-default{
@@ -87,3 +88,47 @@ header .my-signup{
   width: 5%;
   float: left;
 }
+
+/* LOGO AREA */
+.logo-area{
+  background-color: #F3F5F9;
+  text-align: center;
+}
+
+.logo-area .my-logo{
+  min-height: 100px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+#my-logo1{
+  background-image: url("../img/docker.svg");
+}
+#my-logo2{
+  background-image: url("../img/gitlab.svg");
+}
+#my-logo3{
+  background-image: url("../img/slack.svg");
+}
+#my-logo4{
+  background-image: url("../img/hashicorp.svg");
+}
+#my-logo5{
+  background-image: url("../img/hashicorp.svg");
+}
+#my-logo6{
+  background-image: url("../img/splunklogo.svg");
+}
+
+.logo-area .col-xs-12:last-child{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo-area a{
+  font-size: large;
+}
+
+/* configuration area */
