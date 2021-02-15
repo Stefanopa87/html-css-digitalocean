@@ -247,10 +247,22 @@ ul.my-grey {
 ._regions{
   margin-top: 50px;
   background: linear-gradient(135deg, #120038 0%, #2a35b0 100%);
-  min-height: 400px;
 }
 
-._regions h1{
+._regions h2{
   text-align: center;
+  font-size: 4rem;
   margin: 3% 0;
+}
+
+.my_border_down{
+  border-bottom: solid 1px #fff;
+  height: 25px;
+  margin-right: 5px;
+  margin-bottom: 8px;
+}
+
+.my_right_5{
+  margin-right: 5px;
+  margin-bottom: 50px;
 }
