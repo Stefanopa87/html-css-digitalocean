@@ -1,9 +1,9 @@
 /* debug */
-/* [class*="col-"]{
+[class*="col-"]{
   min-height: 100px;
   background: red;
   border: solid 1px #000;
-} */
+}
 
 /* general */
 
@@ -312,15 +312,21 @@ ul.my-grey {
 
 /* started area */
 ._started{
-  background-color: #0067FF;
+  background-color: #0434ad;
   text-align: center;
 }
 
 ._started .my_create{
   background-color: #fff;
-  border-color: #0067FF;
+  border-color: #0434ad;
   border-radius: 8px;
   margin: 3%;
   color: #0167FF;
   padding: 10px 20px;
+}
+
+/* footer */
+footer{
+  background-color: #06235d;
+  min-height: 500px;
 }
