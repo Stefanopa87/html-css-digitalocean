@@ -199,7 +199,6 @@ ul.my-grey {
 }
 
 ._designed img{
-  position: relative;
   width: 60%;
   height: 50%;
   margin: 3% 0;
@@ -265,4 +264,48 @@ ul.my-grey {
 .my_right_5{
   margin-right: 5px;
   margin-bottom: 50px;
+}
+
+/* developmen area */
+._development{
+  background-color: #F3F5F9;
+  text-align: center;
+  min-height: 350px;
+}
+
+._development .row{
+  margin-top: 30px;
+}
+
+._development button{
+  font-size: xx-large;
+  border: none;
+  background-color: inherit;
+  margin-top: 125%;
+}
+
+.rockerbox{
+  text-align: center;
+  min-height: 30%;
+  background-color: #fff;
+}
+
+.rockerbox img{
+  width: 100%;
+}
+
+._development .my_dot{
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  border: solid 2px #006AFF;
+  display: inline-block;
+}
+
+._development .active{
+  background-color: #006AFF;
+}
+
+._development .center_dot{
+  margin: 30px 0;
 }
