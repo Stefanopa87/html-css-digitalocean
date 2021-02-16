@@ -1,9 +1,9 @@
 /* debug */
-[class*="col-"]{
+/* [class*="col-"]{
   min-height: 100px;
   background: red;
   border: solid 1px #000;
-}
+} */
 
 /* general */
 
@@ -328,5 +328,30 @@ ul.my-grey {
 /* footer */
 footer{
   background-color: #06235d;
-  min-height: 500px;
+  min-height: 400px;
+}
+
+.my_space{
+  margin-top: 3%;
+}
+
+footer .my_social {
+  list-style: none;
+  font-size: x-large;
+  padding-inline-start: 0;
+}
+
+.my_social li{
+  padding: 5px;
+  display: inline-block;
+}
+
+.footer_list ul{
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+footer a:hover{
+color: #3196ec;
+text-decoration: none;
 }
